@@ -20,6 +20,6 @@ void modify(struct tv *ns, char name[256], int ne){
 }
 
 void watch(struct tv *ns){
-    printf("You're now watching "); 
-    printf("%s with %d episodes\n", ns->series_name, ns->eps); 
+    printf("You're now watching:\n"); 
+    printf("\t%s with %d episodes\n", ns->series_name, ns->eps); 
 }
